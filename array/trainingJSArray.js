@@ -1,5 +1,5 @@
 /**
- * Created by Tse Ian on 10/01/2017.
+ * Created by Tse Ian on 15/10/2017.
  * js 数组api分享
  * MQ-TECH
  */
@@ -89,8 +89,6 @@ function trainingSort(type) {
                 }
             }).join(','));
             break;
-
-
     }
 }
 
