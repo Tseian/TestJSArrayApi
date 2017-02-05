@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8702c0-f6d2-4500-87a1-02cfe24c1571" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IntXArray/IntXArray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chromeExtension/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/downloadFile/downloadFile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/downloadFile/downloadFile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/file/file.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/file/file.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/object6_1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classAndPrototype/classAndPrototype.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classAndPrototype/classAndPrototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/object6.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/object/object6_1.js" afterPath="$PROJECT_DIR$/object/object6.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/array/trainingJSArray.html" afterPath="$PROJECT_DIR$/array/trainingJSArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/array/trainingJSArray.js" afterPath="$PROJECT_DIR$/array/trainingJSArray.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fun/trainingFun.html" afterPath="$PROJECT_DIR$/fun/trainingFun.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fun/trainingFun.js" afterPath="$PROJECT_DIR$/fun/trainingFun.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,18 +30,18 @@
       <file leaf-file-name="file.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/file/file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="675">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="object6_1.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/object/object6_1.js">
+      <file leaf-file-name="object6.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/object6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+            <state relative-caret-position="683">
+              <caret line="180" column="26" lean-forward="false" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -56,11 +49,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="download.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../node/download.js">
+      <file leaf-file-name="classAndPrototype.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classAndPrototype/classAndPrototype.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classAndPrototype.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classAndPrototype/classAndPrototype.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object6.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/object6.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,16 +118,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file/file.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="downloadFile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/downloadFile/downloadFile.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,23 +128,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="downloadFile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/downloadFile/downloadFile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="package_json" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -178,6 +173,10 @@
         <option value="$PROJECT_DIR$/file/file.js" />
         <option value="$PROJECT_DIR$/object/object6-1.js" />
         <option value="$PROJECT_DIR$/object/object6_1.js" />
+        <option value="$PROJECT_DIR$/object/object6.html" />
+        <option value="$PROJECT_DIR$/object/object6.js" />
+        <option value="$PROJECT_DIR$/classAndPrototype/classAndPrototype.js" />
+        <option value="$PROJECT_DIR$/classAndPrototype/classAndPrototype.html" />
       </list>
     </option>
   </component>
@@ -190,7 +189,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="25" />
     <option name="y" value="23" />
-    <option name="width" value="694" />
+    <option name="width" value="1653" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -211,7 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,23 +223,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrainingJSApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrainingJSApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="object" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,7 +328,9 @@
       <workItem from="1485351348317" duration="5888000" />
       <workItem from="1485677773772" duration="2483000" />
       <workItem from="1486090055825" duration="18000" />
-      <workItem from="1486127791903" duration="3499000" />
+      <workItem from="1486127791903" duration="3953000" />
+      <workItem from="1486220393456" duration="2201000" />
+      <workItem from="1486258306831" duration="4127000" />
     </task>
     <task id="LOCAL-00001" summary="添加readme说明">
       <created>1484039710493</created>
@@ -359,23 +346,30 @@
       <option name="project" value="LOCAL" />
       <updated>1484039836489</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="春节期间谢了很多无用的代码">
+      <created>1486135938995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1486135938995</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41643000" />
+    <option name="totallyTimeSpent" value="48425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="23" width="694" height="1027" extended-state="0" />
+    <frame x="25" y="23" width="1653" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14626683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18321079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08661418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08580858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -395,7 +389,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加readme说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加readme说明" />
+    <MESSAGE value="春节期间谢了很多无用的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="春节期间谢了很多无用的代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -404,28 +399,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/array/trainingJSArray.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/trainingJSArray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="116" column="8" lean-forward="false" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fun/trainingFun.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -451,7 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
           <caret line="116" column="8" lean-forward="false" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -473,7 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
           <caret line="116" column="8" lean-forward="false" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
           <caret line="116" column="8" lean-forward="false" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3660">
           <caret line="244" column="21" lean-forward="false" selection-start-line="244" selection-start-column="21" selection-end-line="244" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,19 +680,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/file/file.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/object/object6_1.js">
+    <entry file="file://$PROJECT_DIR$/object/object6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/object6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="180" column="26" lean-forward="false" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classAndPrototype/classAndPrototype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classAndPrototype/classAndPrototype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

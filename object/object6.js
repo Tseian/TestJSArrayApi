@@ -69,35 +69,117 @@ function inherit(p) {
 
     f.prototype = p;
     return new f();
+
+
 }
 
 /*
  6.2 属性的查询和设置
  通过方括号[] 和.来获取属性值
  只要方括号内运算结果为字符串就行了
+
+ Object.keys(o);
+ 返回一个数组，这个数组有对象中可枚举的自由属性的名称组成。
+ Object.getOwnPropertyNames(o)
+ 返回对象的所有自由属性的名称。而不仅仅是可枚举的属性。
  */
 
 
 
+/*
+ 6.6 属性getter 和setter
+
+ */
+var o = {
+    data: "",
+    fun: function () {
+
+    },
+
+    //取出来
+    get data() {
+        return this.data;
+    },
+    //存入 设置
+    set data(value) {
+        this.data = value;
+    }
+};
+
+/*
+ 6.7 属性的特性
+ 属性包含一些表示他们可写，可枚举，可配置的特性。
+ 调用Object.getOwnPropertyDescriptor();可以获得某一个对象特定的属性的描述
+ */
+console.log("获得对象o的fun的属性描述");
+console.log(Object.getOwnPropertyDescriptor(o, 'fun'));
+
+/*
+ 使用defineProperty给o对象创建一些属性
+ */
+
+Object.defineProperty(o, 'x', {
+    value: 1,
+    writable: true,  //可写
+    enumerable: false,  //不可枚举
+    configurable: true //可匹配值
+});
+o.x = 2;
+console.log("给O的x属性赋值为2之后o.x等于" + o.x);
+
+//将可写属性改为不可写
+Object.defineProperty(o, 'x', {writable: false});
+o.x = 3;
+console.log('将可写属性改为不可写然后给其赋值为3之后o.x等于', o.x);
+
+//给object定义一系列的属性
+Object.defineProperties(o, {
+    y: {value: 'y', writable: true, enumerable: true, configurable: true},
+    z: {value: 'z', writable: true, enumerable: true, configurable: true}
+});
 
 
+/*
+ 继承o
+ */
+var sub = Object.create(o);
+console.log('这是sub');
+console.log(sub);
+
+//获取sub的原型属性
+console.log(Object.getPrototypeOf(sub) == o);
+
+/*
+ 检测一个对象是否是另外一个对象的原型
+ 使用isPrototypeOf()
+ */
+//o是sub的原型
+console.log(o.isPrototypeOf(sub));
+//Object.prototype是o的原型
+console.log(Object.prototype.isPrototypeOf(sub));
 
 
+//获取对象的类属性信息
+function classOf(o) {
+    if (o === null) {
+        return "null";
+    }
+    if (o === undefined) {
+        return "undefined";
+    }
+    return Object.prototype.toString.call(o).slice(8, -1);
+}
+
+console.log(classOf(sub));
+console.log(classOf(1));
+console.log(classOf('d'));
+console.log(classOf(false));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**
+ * 6.8.3 可扩展性
+ * 对象的可扩展性用来表示是否可以给对象添加新属性
+ */
 
 
 
