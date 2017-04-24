@@ -54,32 +54,32 @@ function fun4(a) {
  * 4、通过他们的call的apply方法间接调用
  */
 
-// 作为方法调用   函数作为对象的属性
 var obj = {
     a: 'a',
     b: function () {
-        console.log('调用了b');
-        console.log('不再嵌套函数里面this === obj是' + (this === obj).toString());
+        console.log('1、不再嵌套函数里面this === obj是' + (this === obj).toString());
         var that = this;
 
         function fun7() {
-            console.log('在嵌套函数里面this === obj是' + (this === obj).toString());
-            console.log('在嵌套函数里面that === obj是' + (that === obj).toString());
+            console.log('2、在嵌套函数里面this === obj是' + (this === obj).toString());
+            console.log('3、在嵌套函数里面that === obj是' + (that === obj).toString());
         }
 
         fun7();
     }
 };
 var fun6 = function () {
-    console.log('我被obj调用了');
+    console.log('4、在嵌套函数里面this === obj是' + (this === obj).toString());
 };
 
-// obj.fun6 = fun6;
-// obj.fun6();
-// obj['fun6']();
-//
-// obj.b();
-// obj['b']();
+obj.fun6 = fun6;
+obj.fun6();
+obj['fun6']();
+
+obj.b();
+obj['b'].call({d: '222'});
+obj['b'].apply({c: 'ddd'});
+
 
 // 作为构造函数调用
 
@@ -277,7 +277,7 @@ var fun10 = function (x, y) {
 };
 
 var obj = {
-    description: "I'm obj"
+    description: "I'm an obj"
 };
 // fun10.call(obj, 1, 2);  //相当于  obj.m =fun10;obj.m(1,2);
 
